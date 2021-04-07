@@ -25,7 +25,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run stylelint && npm run test"
+      "pre-commit": "npm run stylelint",
+      "pre-push": "npm run test"
     }
   },
   "eslintConfig": {
