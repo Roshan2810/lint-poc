@@ -21,7 +21,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "stylelint": "stylelint '**/*.scss'; exit 0"
+    "stylelint": "stylelint '**/*.scss'"
   },
   "husky": {
     "hooks": {
